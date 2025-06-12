@@ -1,9 +1,5 @@
-import React from 'react'
-
 function Loader() {
-  return (
-    <div className='loader'>Loader</div>
-  )
+  return <div className="loader">Loader</div>;
 }
 
-export default Loader
+export default Loader;
