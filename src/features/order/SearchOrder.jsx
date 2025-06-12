@@ -11,6 +11,7 @@ function SearchOrder() {
 
     if (!query) return;
     navigate(`/order/${query}`);
+    setQuery("");
   }
 
   return (
