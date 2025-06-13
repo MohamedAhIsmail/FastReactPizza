@@ -14,7 +14,7 @@ function AppLayout() {
 
       <Header />
 
-      <div className=" overflow-y-auto">
+      <div className="overflow-y-auto">
         <main className="mx-auto max-w-3xl">
           <Outlet />
         </main>
