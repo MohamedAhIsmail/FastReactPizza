@@ -15,7 +15,7 @@ function MenuItem({ pizza }) {
 
   function handelAddItem() {
     const newItem = {
-      id,
+      pizzaId: id,
       name,
       quantity: 1,
       unitPrice,
